@@ -20,7 +20,7 @@ export default function GalleryPage() {
         <img src="/1366.jpeg" alt="" />
         <img src="/1363.jpeg" alt="" />
         <img src="/2154.jpeg" alt="" />
-        <img src="/1139.jpeg" alt="" />
+        <img src="/0ac5c2f2-f1a0-4270-820e-f021d45fd843-1_all_15.jpeg" alt="" />
       </section>
     </main>
   );
