@@ -163,10 +163,12 @@ p { line-height: 1.7; }
 .galleryFeatureText,
 .contact,
 .contactNote,
-.emailForm {
+.emailForm,
+.detailsBox {
   box-shadow:
-    0 10px 35px rgba(42, 29, 20, 0.06),
-    0 0 28px rgba(111, 143, 163, 0.10);
+    0 12px 40px rgba(42, 29, 20, 0.08),
+    0 0 50px rgba(111, 143, 163, 0.18),
+    0 0 90px rgba(111, 143, 163, 0.10);
 }
 
 .card,
