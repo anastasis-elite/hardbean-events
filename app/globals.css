@@ -162,8 +162,11 @@ p { line-height: 1.7; }
 .rateDetailCard,
 .galleryFeatureText,
 .contact,
-.contactNote {
-  border-top: 4px solid var(--accent-blue);
+.contactNote,
+.emailForm {
+  box-shadow:
+    0 10px 35px rgba(42, 29, 20, 0.06),
+    0 0 28px rgba(111, 143, 163, 0.10);
 }
 
 .card,
