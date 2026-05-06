@@ -48,8 +48,9 @@ export default function RootLayout({
     <a className="socialButton instagram" href="INSTAGRAM_URL">
       Instagram
     </a>
+  </div>
 </footer>
-      </body>
+       </body>
     </html>
   );
 }
