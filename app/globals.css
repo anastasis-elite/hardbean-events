@@ -266,4 +266,33 @@ li {
     height: 300px;
   }
 }
+  .ratesList {
+  display: grid;
+  gap: 22px;
+}
+
+.rateDetailCard {
+  background: white;
+  border-radius: 26px;
+  padding: 28px;
+  box-shadow: 0 18px 45px rgba(42, 29, 20, 0.08);
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 28px;
+  align-items: start;
+}
+
+.rateDetailCard h3 {
+  margin-top: 0;
+}
+
+.rateDetailCard ul {
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+  .rateDetailCard {
+    grid-template-columns: 1fr;
+  }
+}
 }
