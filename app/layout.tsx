@@ -34,13 +34,14 @@ export default function RootLayout({
   </div>
 
   <div className="footerContact">
-    <a href="tel:HER_PHONE_NUMBER">HER PHONE NUMBER</a>
-    <a href="mailto:HER_EMAIL_ADDRESS">HER EMAIL ADDRESS</a>
-    <span>ADDRESS / CITY</span>
+    <a href="tel:(409)-227-4608">LUMBERTON</a>
+    <a href="tel:(409)-239-5901">BEAUMONT</a>
+    <a href="mailto:hardbeanlumberton@gmail.com">EMAIL HARD BEAN</a>
+    <span>LUMBERTON, TEXAS</span>
   </div>
 
   <div className="socialButtons">
-    <a className="socialButton facebook" href="FACEBOOK_URL">
+    <a className="socialButton facebook" href="facebook.com/hardbeanlumberton">
       Facebook
     </a>
 
