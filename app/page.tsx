@@ -1,77 +1,75 @@
-const rates = [
-  {
-    title: "Saturday Daytime Events",
-    time: "Saturday, 9:00am – 5:00pm",
-    prices: ["$90 / hour", "$720 full day", "+ $150 cleanup fee if needed"],
-  },
-  {
-    title: "Sunday Daytime Events",
-    time: "Sunday, 1:00pm – 6:00pm",
-    prices: ["$100 / hour", "$750 full day", "+ $150 cleanup fee if needed"],
-  },
-  {
-    title: "Evening Events",
-    time: "Friday or Saturday evening",
-    prices: ["Custom pricing based on event needs"],
-  },
-];
-
 export default function Home() {
   return (
     <main>
-
       <section className="hero">
         <p className="eyebrow">Event Center • Gatherings • Celebrations</p>
         <h1>Hard Bean Event Center</h1>
         <p className="heroText">
-          A warm, welcoming event space for showers, birthdays, family gatherings,
-          meetings, and meaningful celebrations.
+          A cozy, welcoming space for showers, birthdays, meetings, family
+          gatherings, and meaningful celebrations.
         </p>
 
         <div className="heroButtons">
-          <a href="./contact" className="primaryButton">Request Booking Info</a>
-          <a href="./rates" className="secondaryButton">View Rates</a>
+          <a href="/contact" className="primaryButton">Request Booking Info</a>
+          <a href="/rates" className="secondaryButton">View Rates</a>
         </div>
       </section>
 
-      <section id="rates" className="section">
-        <p className="eyebrow">Rental Rates</p>
-        <h2>Simple pricing for your next event.</h2>
-
-        <div className="rateGrid">
-          {rates.map((rate) => (
-            <div className="card" key={rate.title}>
-              <h3>{rate.title}</h3>
-              <p className="time">{rate.time}</p>
-              <ul>
-                {rate.prices.map((price) => (
-                  <li key={price}>{price}</li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section id="details" className="section split">
+      <section className="section split">
         <div>
-          <p className="eyebrow">The Space</p>
-          <h2>Designed for easy, beautiful gatherings.</h2>
+          <p className="eyebrow">Welcome</p>
+          <h2>A simple space made for special moments.</h2>
         </div>
 
         <div className="detailsBox">
           <p>
-            Hard Bean Event Center is ideal for small to medium gatherings,
-            private celebrations, meetings, showers, and community events.
+            Hard Bean Event Center offers a warm, comfortable setting that can
+            be transformed for celebrations, meetings, showers, and community
+            gatherings.
           </p>
           <p>
-            Additional setup, cleanup, and event-specific needs can be discussed
-            when booking.
+            Bring your vision, your people, and your plans — we’ll help provide
+            the backdrop.
           </p>
         </div>
       </section>
 
-      <section id="contact" className="contact">
+      <section className="section">
+        <p className="eyebrow">Services</p>
+        <h2>Gather here for almost any occasion.</h2>
+
+        <div className="rateGrid">
+          <div className="card">
+            <h3>Showers</h3>
+            <p>Baby showers, bridal showers, and sweet family celebrations.</p>
+          </div>
+
+          <div className="card">
+            <h3>Celebrations</h3>
+            <p>Birthdays, anniversaries, reunions, and private gatherings.</p>
+          </div>
+
+          <div className="card">
+            <h3>Meetings</h3>
+            <p>Business meetings, classes, vendor events, and community groups.</p>
+          </div>
+        </div>
+
+        <a href="/events" className="sectionButton">Explore Events</a>
+      </section>
+
+      <section className="galleryPreview">
+        <div>
+          <p className="eyebrow">Gallery</p>
+          <h2>See the space.</h2>
+          <p>
+            View photos of the center and imagine how your event could come to life.
+          </p>
+          <a href="/gallery" className="primaryButton">View Gallery</a>
+        </div>
+      </section>
+
+      <section className="contact">
         <p className="eyebrow">Ready to plan?</p>
         <h2>Contact us to check availability.</h2>
         <p>
@@ -79,7 +77,7 @@ export default function Home() {
           time needed.
         </p>
         <a className="primaryButton" href="/contact">
-          Email to Book
+          Request Booking Info
         </a>
       </section>
     </main>
