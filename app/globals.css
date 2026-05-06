@@ -435,9 +435,8 @@ li { margin: 10px 0; }
     linear-gradient(
       to right,
       #2a1d14 0%,
-      #2f2118 45%,
-      #4f6573 78%,
-      #6f8fa3 100%
+      #3c2a1f 35%,
+      #5f7686 100%
     );
 
   color: white;
