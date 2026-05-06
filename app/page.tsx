@@ -70,7 +70,7 @@ export default function Home() {
   </div>
 
   <div className="galleryFeatureImage">
-    <img src="../public/1137.jpeg" alt="Inside Hard Bean Event Center" />
+    <img src="/1137.jpeg" alt="Inside Hard Bean Event Center" />
   </div>
 </section>
 
