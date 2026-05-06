@@ -23,9 +23,9 @@ export default function Home() {
         <div className="logoOval">HARD BEAN</div>
 
         <div className="navLinks">
-          <a href="#rates">Rates</a>
+          <a href="/rates">Rates</a>
           <a href="#details">Details</a>
-          <a href="#contact">Contact</a>
+          <a href="/contact">Contact</a>
         </div>
       </nav>
 
