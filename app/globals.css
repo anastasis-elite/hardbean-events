@@ -226,4 +226,40 @@ li {
 .contactForm textarea {
   resize: vertical;
 }
+  .sectionButton {
+  display: inline-block;
+  margin-top: 28px;
+  border-radius: 999px;
+  padding: 14px 22px;
+  font-weight: 700;
+  border: 1px solid #2a1d14;
+}
+
+.galleryPreview {
+  margin: 40px 7%;
+  min-height: 420px;
+  border-radius: 32px;
+  padding: 60px;
+  display: flex;
+  align-items: end;
+  background:
+    linear-gradient(rgba(42, 29, 20, 0.35), rgba(42, 29, 20, 0.65)),
+    url("/inside.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  overflow: hidden;
+}
+
+.galleryPreview p {
+  max-width: 560px;
+}
+
+@media (max-width: 800px) {
+  .galleryPreview {
+    margin: 24px 7%;
+    padding: 34px;
+    min-height: 360px;
+  }
+}
 }
