@@ -330,4 +330,9 @@ li { margin: 10px 0; }
   .formRow {
     grid-template-columns: 1fr;
   }
+  .ratesButtonWrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 36px;
+}
 }
