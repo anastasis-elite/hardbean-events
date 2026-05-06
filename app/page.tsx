@@ -58,16 +58,21 @@ export default function Home() {
         <a href="/events" className="sectionButton">Explore Events</a>
       </section>
 
-      <section className="galleryPreview">
-        <div>
-          <p className="eyebrow">Gallery</p>
-          <h2>See the space.</h2>
-          <p>
-            View photos of the center and imagine how your event could come to life.
-          </p>
-          <a href="/gallery" className="primaryButton">View Gallery</a>
-        </div>
-      </section>
+      <section className="section galleryFeature">
+  <div className="galleryFeatureText">
+    <p className="eyebrow">Gallery</p>
+    <h2>See the space before you book.</h2>
+    <p>
+      Take a look inside Hard Bean Event Center and imagine how your shower,
+      meeting, birthday, or gathering could come together.
+    </p>
+    <a href="/gallery" className="primaryButton">View Gallery</a>
+  </div>
+
+  <div className="galleryFeatureImage">
+    <img src="/inside.jpg" alt="Inside Hard Bean Event Center" />
+  </div>
+</section>
 
       <section className="contact">
         <p className="eyebrow">Ready to plan?</p>
