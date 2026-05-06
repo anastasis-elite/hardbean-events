@@ -338,13 +338,8 @@ li { margin: 10px 0; }
   padding: 42px 7%;
 
   background:
-    linear-gradient(
-      90deg,
-      #2a1d14 0%,
-      #33241a 32%,
-      #4f6573 72%,
-      #6f8fa3 100%
-    );
+    linear-gradient(rgba(42,29,20,0.72), rgba(42,29,20,0.72)),
+    linear-gradient(to left, var(--accent-blue), #2a1d14);
 
   color: white;
   display: flex;
