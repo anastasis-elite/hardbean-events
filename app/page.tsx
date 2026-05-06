@@ -78,7 +78,7 @@ export default function Home() {
           Send your preferred date, event type, estimated guest count, and rental
           time needed.
         </p>
-        <a className="primaryButton" href="mailto:">
+        <a className="primaryButton" href="/contact">
           Email to Book
         </a>
       </section>
