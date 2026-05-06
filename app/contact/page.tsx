@@ -1,15 +1,6 @@
 export default function ContactPage() {
   return (
     <main>
-      <nav className="nav">
-        <div className="logoOval">HARD BEAN</div>
-        <div className="navLinks">
-          <a href="/">Home</a>
-          <a href="/events">Events</a>
-          <a href="/rates">Rates</a>
-          <a href="/contact">Contact</a>
-        </div>
-      </nav>
 
       <section className="pageHero">
         <p className="eyebrow">Contact</p>
