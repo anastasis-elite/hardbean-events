@@ -3,24 +3,26 @@ const rates = [
     title: "Weekday Daytime Rental",
     time: "Monday – Friday, 9:00am – 5:00pm",
     details: [
-      "Ideal for meetings, trainings, classes, showers, and daytime gatherings.",
-      "Hourly or full-day availability may be discussed based on event needs.",
+      "$75 / hour",
+      "$600 full day",
+      "+ $150 cleanup fee if needed",
     ],
   },
   {
     title: "Weeknight Rental",
     time: "Monday – Thursday, 5:00pm – 9:00pm",
     details: [
-      "Perfect for evening meetings, small celebrations, classes, and community events.",
-      "Great option for shorter after-work gatherings.",
+      "$85 / hour",
+      "+ $150 cleanup fee if needed",
     ],
   },
   {
     title: "Friday & Saturday Night Rental",
-    time: "Friday & Saturday, after 5:00pm",
+    time: "Friday & Saturday, 5:00pm – 10:00pm",
     details: [
-      "Best for evening celebrations, parties, receptions, and private events.",
-      "Custom pricing based on event type, length, setup, and cleanup needs.",
+      "$100 / hour",
+      "$500 full evening",
+      "+ $150 cleanup fee if needed",
     ],
   },
   {
@@ -50,8 +52,8 @@ export default function RatesPage() {
         <p className="eyebrow">Rental Rates</p>
         <h1>Rental options for every kind of gathering.</h1>
         <p>
-          Choose the rental window that fits your event best. Some events may
-          require custom pricing depending on setup, timing, and cleanup needs.
+          Choose the rental window that fits your event best. A $150 cleanup fee
+          may be added if needed.
         </p>
       </section>
 
@@ -72,6 +74,12 @@ export default function RatesPage() {
             </div>
           ))}
         </div>
+
+        <div className="ratesButtonWrap">
+          <a href="/contact" className="primaryButton">
+            Request Booking Info
+          </a>
+        </div>
       </section>
 
       <section className="contact">
@@ -82,7 +90,7 @@ export default function RatesPage() {
           Mrs. Diane can help confirm the best option.
         </p>
         <a href="/contact" className="primaryButton">
-          Request Booking Info
+          Contact Mrs. Diane
         </a>
       </section>
     </main>
