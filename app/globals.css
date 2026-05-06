@@ -298,54 +298,26 @@ li { margin: 10px 0; }
   font: inherit;
 }
 
-@media (max-width: 950px) {
-  .contactLayout,
-  .galleryFeature,
-  .rateDetailCard,
-  .split,
-  .rateGrid,
-  .galleryGrid {
-    grid-template-columns: 1fr;
-  }
-
-  .nav {
-    flex-direction: column;
-    gap: 14px;
-  }
-
-  .hero {
-    min-height: 65vh;
-    padding-top: 80px;
-  }
-
-  .galleryFeatureImage img,
-  .galleryGrid img {
-    height: 300px;
-  }
-
-  .contactIntro h2 {
-    font-size: 3rem;
-  }
-
-  .formRow {
-    grid-template-columns: 1fr;
-  }
-  .ratesButtonWrap {
+.ratesButtonWrap {
   display: flex;
   justify-content: center;
   margin-top: 36px;
 }
-  .siteFooter {
+
+.siteFooter {
   margin-top: 70px;
   padding: 42px 7%;
   background: #2a1d14;
   color: white;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 40px;
   flex-wrap: wrap;
+}
+
+.footerBrand {
+  max-width: 320px;
 }
 
 .siteFooter h3 {
@@ -357,10 +329,6 @@ li { margin: 10px 0; }
   margin: 0;
   opacity: 0.82;
   font-size: 0.95rem;
-}
-
-.footerBrand {
-  max-width: 320px;
 }
 
 .footerContact {
@@ -403,6 +371,38 @@ li { margin: 10px 0; }
 }
 
 @media (max-width: 950px) {
+  .contactLayout,
+  .galleryFeature,
+  .rateDetailCard,
+  .split,
+  .rateGrid,
+  .galleryGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .nav {
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .hero {
+    min-height: 65vh;
+    padding-top: 80px;
+  }
+
+  .galleryFeatureImage img,
+  .galleryGrid img {
+    height: 300px;
+  }
+
+  .contactIntro h2 {
+    font-size: 3rem;
+  }
+
+  .formRow {
+    grid-template-columns: 1fr;
+  }
+
   .siteFooter {
     flex-direction: column;
     align-items: flex-start;
@@ -413,5 +413,4 @@ li { margin: 10px 0; }
     align-items: flex-start;
     gap: 10px;
   }
-}
 }
