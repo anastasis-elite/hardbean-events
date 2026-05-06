@@ -12,15 +12,15 @@ export default function GalleryPage() {
       </section>
 
       <section className="galleryGrid">
-        <img src="/1137.jpg" alt="" />
-        <img src="/1138.jpg" alt="" />
-        <img src="/1139.jpg" alt="" />
-        <img src="/1364.jpg" alt="" />
-        <img src="/1365.jpg" alt="" />
-        <img src="/1366.jpg" alt="" />
-        <img src="/1363.jpg" alt="" />
-        <img src="/2154.jpg" alt="" />
-        <img src="/1139.jpg" alt="" />
+        <img src="/1137.jpeg" alt="" />
+        <img src="/1138.jpeg" alt="" />
+        <img src="/1139.jpeg" alt="" />
+        <img src="/1364.jpeg" alt="" />
+        <img src="/1365.jpeg" alt="" />
+        <img src="/1366.jpeg" alt="" />
+        <img src="/1363.jpeg" alt="" />
+        <img src="/2154.jpeg" alt="" />
+        <img src="/1139.jpeg" alt="" />
       </section>
     </main>
   );
