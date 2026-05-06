@@ -428,13 +428,29 @@ li { margin: 10px 0; }
   }
 
   .siteFooter {
-    flex-direction: column;
-    align-items: flex-start;
-  }
+  margin-top: 70px;
+  padding: 42px 7%;
 
-  .footerContact {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-  }
+  background:
+    linear-gradient(
+      to top,
+      #2a1d14 0%,
+      #3c2a1f 45%,
+      #5f7686 100%
+    );
+
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.footerContact a,
+.footerContact span,
+.siteFooter p {
+  opacity: 0.88;
+}
 }
