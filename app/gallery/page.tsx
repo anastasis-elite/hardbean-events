@@ -12,9 +12,15 @@ export default function GalleryPage() {
       </section>
 
       <section className="galleryGrid">
-        <img src="/inside.jpg" alt="Hard Bean Event Center" />
-        <img src="/events.jpg" alt="Hard Bean Event Center Event Space" />
-        <img src="/hero.jpg" alt="Hard Bean Event Center Exterior" />
+        <img src="/1137.jpg" alt="" />
+        <img src="/1138.jpg" alt="" />
+        <img src="/1139.jpg" alt="" />
+        <img src="/1364.jpg" alt="" />
+        <img src="/1365.jpg" alt="" />
+        <img src="/1366.jpg" alt="" />
+        <img src="/1363.jpg" alt="" />
+        <img src="/2154.jpg" alt="" />
+        <img src="/1139.jpg" alt="" />
       </section>
     </main>
   );
