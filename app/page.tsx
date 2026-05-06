@@ -29,8 +29,8 @@ export default function Home() {
         </p>
 
         <div className="heroButtons">
-          <a href="/contact" className="primaryButton">Request Booking Info</a>
-          <a href="/rates" className="secondaryButton">View Rates</a>
+          <a href="./contact" className="primaryButton">Request Booking Info</a>
+          <a href="./rates" className="secondaryButton">View Rates</a>
         </div>
       </section>
 
