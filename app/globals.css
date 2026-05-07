@@ -199,29 +199,18 @@ li { margin: 10px 0; }
   text-align: center;
 }
 
-.carouselSection {
-  padding: 70px 7%;
-  background: #f7f1e8;
-}
-
-.carouselSection h2 {
-  font-size: 2rem;
-  margin-bottom: 24px;
-  color: #2a1d14;
-}
-
-.carousel {
+.galleryCarousel {
   display: flex;
   gap: 18px;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
-  padding-bottom: 18px;
+  padding: 40px 7% 80px;
   -webkit-overflow-scrolling: touch;
 }
 
-.carouselItem {
-  flex: 0 0 82%;
-  max-width: 620px;
+.gallerySlide {
+  flex: 0 0 85%;
+  max-width: 650px;
   scroll-snap-align: center;
   border-radius: 22px;
   overflow: hidden;
@@ -229,22 +218,22 @@ li { margin: 10px 0; }
   box-shadow: 0 18px 40px rgba(42, 29, 20, 0.18);
 }
 
-.carouselItem img {
+.gallerySlide img {
   width: 100%;
-  height: 420px;
+  height: 430px;
   object-fit: cover;
   display: block;
 }
 
 @media (min-width: 768px) {
-  .carouselItem {
-    flex-basis: 45%;
+  .gallerySlide {
+    flex-basis: 48%;
   }
 }
 
 @media (min-width: 1100px) {
-  .carouselItem {
-    flex-basis: 32%;
+  .gallerySlide {
+    flex-basis: 33%;
   }
 }
 
@@ -431,8 +420,6 @@ li { margin: 10px 0; }
   .rateDetailCard,
   .split,
   .rateGrid,
-  .galleryGrid {
-    grid-template-columns: 1fr;
   }
 
   .nav {
