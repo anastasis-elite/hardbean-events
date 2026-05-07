@@ -415,12 +415,13 @@ li { margin: 10px 0; }
 }
 
 @media (max-width: 950px) {
-  .contactLayout,
-  .galleryFeature,
-  .rateDetailCard,
-  .split,
-  .rateGrid,
-  }
+.contactLayout,
+.galleryFeature,
+.rateDetailCard,
+.split,
+.rateGrid {
+  grid-template-columns: 1fr;
+}
 
   .nav {
     flex-direction: column;
